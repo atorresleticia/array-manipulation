@@ -9,35 +9,38 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Manipulação de vetores e listas</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Manipulation</title>
+        <link rel="stylesheet" href="appStyle.css">
     </head>
-    <body>        
+    <body>       
+        
+        <h1>Manipulação de vetores e listas</h1>
+        
+        <br>
+        
         <div>
             Usuário digitou o valor ${param.value} <br>
         </div>
 
         <br>
 
-        <div>
-            Vetor = [ 
+        <div class="array">
+            Vetor gerado = [ 
             <c:forEach items="${array}" var="element">
-                ${element}
+                ${element}  
             </c:forEach> ]
         </div>
 
         <br>
 
         <form>
-            Somar valores
+            Soma dos valores 
             <input type="hidden" name="value" value="${param.value}">
             <button type="submit" name="evenOdd" value="even">Pares</button>
             <button type="submit" name="evenOdd" value="odd">Ímpares</button>
+            <label>${sum}</label>
         </form>
-        
-        <br>
-        
-        Soma dos valores ${option} = ${sum}
-
+   
     </body>
 </html>

@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 7, 2018, 12:15:29 PM
+    Author     : Leticia Torres
+*/
+
+h1 {
+    font-family: verdana;
+    font-size: 15px;
+}
+
+div {
+    font-family: verdana;
+    font-size: 12px;
+    margin: 5px;
+}
+
+input.arrayInput {
+    font-family: verdana;
+    border-radius: 3px;
+    border-style: groove;
+}
+
+button {
+    font-family: verdana;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 9px;
+    margin: 2px;
+    border: none;
+    background-color: darkgray;
+    border-radius: 4px;
+}
+span.error {
+    margin: 5px;
+    display:block;
+    color: #F42020;
+}
